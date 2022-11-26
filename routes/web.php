@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [\App\Http\Controllers\BooksController::class, 'index']);
+Route::get('/book/{id}', [\App\Http\Controllers\BooksController::class, 'detail']);
+Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'contact']);
+Route::get('/publisher', [\App\Http\Controllers\PublisherController::class, 'publisher']);
+Route::get('/category/{id}', [\App\Http\Controllers\CategoriesController::class, 'category']);

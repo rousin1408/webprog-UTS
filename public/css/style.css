@@ -1,0 +1,59 @@
+/* Navbar */
+*{
+    background-color: #E2CBA6;
+    color: #33341A;
+}
+.native{
+    padding: 1rem 3rem;
+    box-shadow: 0 0 12px rgb(0,0,0, 0.1);
+}
+.logo h1{
+font-weight: bolder;
+font-size: 2em;
+
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.dropdown-menu.show{
+    background-color: #E2CBA6;
+}
+.btn{
+    background-color: #d89d3d;
+    border:1px #33341A;
+}
+/* Footer */
+footer {
+    padding-top: 10.5rem;
+}
+
+.card{
+border-radius: 10px;
+}
+.contain{
+    padding: 2rem;
+    border:1px #000000;
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: #d89d3d!important;
+}
+
+.contact{
+    background-color: #ab9e88;
+    padding: 1rem 1rem;
+}
+.contact h1{
+    background-color: #ab9e88;
+}
+.index{
+    background-color: #ab9e88;
+    padding: 1rem 1rem;
+}
+.index h1{
+    background-color: #ab9e88;
+}
+
+
